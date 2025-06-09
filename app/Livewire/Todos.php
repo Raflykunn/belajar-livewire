@@ -8,10 +8,12 @@ class Todos extends Component
 {
     public $todo = '';
 
-    public $todos = [
-        'take out trash',
-        'do dishes'
-    ];
+    public $todos = ['who cares'];
+
+    public function updatedTodo($value)
+    {
+        $this->todo = strtoupper($value);
+    }
 
     public function add()
     {
