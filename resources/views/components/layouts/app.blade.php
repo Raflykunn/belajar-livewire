@@ -13,6 +13,8 @@
         }
     </style>
 
+    @stack('style')
+
     <title>{{ $title ?? 'Page Title' }}</title>
 </head>
 
